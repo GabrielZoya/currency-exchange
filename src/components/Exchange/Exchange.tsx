@@ -139,7 +139,7 @@ const CurrencyConverter: React.FC<Exchange> = ({
             </div>
 
             {date && (
-              <p className={styles.updateInfo}>
+              <p className={styles.updateInfoDesktop}>
                 {fromCurrency} to {toCurrency} conversion — Last updated {date},
                 19:17 UTC
               </p>
@@ -147,8 +147,14 @@ const CurrencyConverter: React.FC<Exchange> = ({
           </div>
         </div>
       </div>
+
+      {date && (
+        <p className={styles.updateInfoMobile}>
+          {fromCurrency} to {toCurrency} conversion — Last updated {date}, 19:17
+          UTC
+        </p>
+      )}
     </div>
   );
 };
-
 export default CurrencyConverter;

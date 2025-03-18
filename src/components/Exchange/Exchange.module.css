@@ -162,11 +162,37 @@
   }
 }
 
-.updateInfo {
+/* .updateInfo {
   font-size: 12px;
   color: #888;
   text-align: right;
   margin-top: 15px;
+} */
+
+.updateInfoDesktop {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.updateInfoMobile {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .updateInfoDesktop {
+    display: none;
+  }
+
+  .updateInfoMobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px) {
