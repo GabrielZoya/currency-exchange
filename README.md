@@ -6,29 +6,29 @@ Instalación
 
 Antes de ejecutar la aplicación, instala las dependencias necesarias con:
 
-npm install
+### `npm install`
 
-# o
+o
 
-yarn install
+### `yarn install`
 
-# o
+o
 
-pnpm install
+### `pnpm install`
 
 Inicio del Servidor
 
 Para iniciar el servidor en modo desarrollo, ejecuta:
 
-npm run dev
+### `npm run dev`
 
-# o
+o
 
-yarn dev
+### `yarn dev`
 
-# o
+o
 
-pnpm dev
+### `pnpm dev`
 
 Luego, abre http://localhost:3000 en tu navegador para ver la aplicación en ejecución.
 
@@ -36,7 +36,7 @@ Construcción y Despliegue
 
 Para construir la aplicación para producción:
 
-npm run build
+### `npm run build`
 
 Para iniciar la aplicación en producción:
 
