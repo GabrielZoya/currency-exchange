@@ -1,40 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Comenzando
 
-## Getting Started
+Este proyecto es una calculadora de conversión de monedas desarrollada con Next.js y React. Permite convertir entre diferentes divisas utilizando datos actualizados desde una API.
 
-First, run the development server:
+Instalación
 
-```bash
+Antes de ejecutar la aplicación, instala las dependencias necesarias con:
+
+npm install
+
+# o
+
+yarn install
+
+# o
+
+pnpm install
+
+Inicio del Servidor
+
+Para iniciar el servidor en modo desarrollo, ejecuta:
+
 npm run dev
-# or
+
+# o
+
 yarn dev
-# or
+
+# o
+
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Luego, abre http://localhost:3000 en tu navegador para ver la aplicación en ejecución.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Construcción y Despliegue
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para construir la aplicación para producción:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para iniciar la aplicación en producción:
 
-## Learn More
+Abre http://localhost:3000 en tu navegador para ver la aplicación en funcionamiento.
 
-To learn more about Next.js, take a look at the following resources:
+Tecnologías Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Next.js 15.2.2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React 19
 
-## Deploy on Vercel
+TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Axios
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+ESLint
