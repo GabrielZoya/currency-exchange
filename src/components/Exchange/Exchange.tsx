@@ -10,9 +10,9 @@ interface Exchange {
 }
 
 const CurrencyConverter: React.FC<Exchange> = ({
-  defaultAmount = 100,
-  defaultFromCurrency = "EUR",
-  defaultToCurrency = "USD",
+  defaultAmount = 1.0,
+  defaultFromCurrency = "USD",
+  defaultToCurrency = "EUR",
 }) => {
   const [amount, setAmount] = useState<number>(defaultAmount);
   const [fromCurrency, setFromCurrency] = useState<string>(defaultFromCurrency);
